@@ -1,0 +1,98 @@
+*{
+  margin:0;
+}
+body{
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif, monospace;
+  font-size: 25px;
+  line-height: 0.5em;
+  background: linear-gradient(45deg, purple, pink, orange) fixed;
+}
+
+header {
+  display:flex;
+  background: black;
+  width: 100%;
+  padding: 15px;
+}
+
+nav {
+  display:flex;
+  justify-content: space-evenly;
+  background: linear-gradient( 180deg, lightBlue, white, pink);
+  width: 100%;
+  padding: 30px;
+}
+
+main{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.profile-pic{
+  transform: rotate(-45deg);
+  padding: 2px;
+  margin: 25px;
+  border:5px white double;
+  background-color: black;
+}
+
+h1{
+  color: grey;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: blink;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+h2{
+  color: rgb(171, 130, 238);
+  font-style: italic;
+  font-size: 14px;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#formacao{
+  background-color: violet;
+  width: 100%;
+}
+
+#portfolio{
+  background-color: bisque;
+  width: 100%;
+}
+
+#contato{
+  width: 100%;
+  display:flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: violet;
+  padding: 10px;
+}
+
+/* .border{
+  border: solid 1px black;
+  margin: 5px;
+} */
+
+.dotted{
+  border: 3px dotted darkmagenta
+}
+
+.dashed{
+  border: 3px dashed darkviolet
+}
+

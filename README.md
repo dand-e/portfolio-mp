@@ -2,4 +2,4 @@
 
 Portfólio criado em aulas desenvolvidas pelo Instituto Minas Programam
 
-[O magnifico portfolio - responsivo](https://dand-e.github.io/portfolio-mp/))
+[O magnifico portfolio - responsivo](https://dand-e.github.io/portfolio-mp/)

@@ -3,4 +3,4 @@
 Portfólio criado em aulas desenvolvidas pelo Instituto Minas Programam
 
 
-[Deploy](https://deploy-preview-2--sour-unicorn.netlify.app/)
+[O magnifico portfolio](https://sour-unicorn.netlify.app/)

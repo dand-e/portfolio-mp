@@ -2,5 +2,4 @@
 
 Portfólio criado em aulas desenvolvidas pelo Instituto Minas Programam
 
-
-[O magnifico portfolio](https://sour-unicorn.netlify.app/)
+<a href="https://sour-unicorn.netlify.app/" target="_blank">O magnifico portfolio</a>

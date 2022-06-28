@@ -10,6 +10,7 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+/* HEADER */
 header {
   display:flex;
   align-items: center;
@@ -24,6 +25,7 @@ header {
   display:flex;
   align-items: center;
   justify-content: flex-end;
+  z-index: 1;
 }
 
 .menu--menu{
@@ -42,9 +44,19 @@ header {
   font-size: 18px;
   line-height: 25px;
   color: #ffff;
+  padding: 0 5px;
   text-decoration: none;
+  transition: all .8s ease;
 }
 
+.menu--item a:hover{
+  background-color: #5A53D8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+}
+
+/* MAIN */
 .container{
   display: flex;
   flex-direction: column;
@@ -57,13 +69,11 @@ header {
 }
 
 .container figure .profile-pic{
-  display: flex;
-  align-items: center;
   border-radius: 50px;
   margin-bottom: 25px;
 }
 
-img{
+.profile-pic {
   transform:rotate(-25deg);
 }
 
@@ -102,70 +112,7 @@ article{
   width:60%
 }
 
-.content{
-  display: flex;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 30px 0;
-}
-
-.content ul{
-  padding: 60px 0;
-}
-
-#formacao{
-  /* display: flex;
-  flex-direction: column;
-  padding: 15px;
-  width:100%; */
-  background-color: #ffff;
-}
-/*
-#formacao ul{
-  max-width: 40%;
-  margin: 0;
-  margin-left: 315px; 
-}*/
-
-#portfolio{
-  /* display: flex;
-  flex-direction: column;
-  padding: 15px;
-  width:100%; */
-  background-color: #EDEAEA;
-  /* align-items: center;  */
-}
-
-/* #portfolio ul{
-  max-width: 40%;
-  margin-left: 315px;
-} */
-
-#contato{
-  display: flex;
-  flex-direction: column;
-  background-color: #5A53D8;
-  padding: 20px; 
-}
-
-#contato div {
-  display: flex;
-  color: black;
-  padding: 5px; 
-}
-
-#contato a{
-  color: #ffff;
-  margin-left: 10px;
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 19px;
-  font-weight: 700;
-}
-
-.underline{
-  text-decoration: underline !important;
-}
+/* FORMAÇÃO E PORTFOLIO*/
 
 section li{
   list-style: none;
@@ -197,6 +144,7 @@ section a{
 
 section p{
   font-style: normal;
+  color: #828282;
   font-weight: 400;
   font-size: 14px;
   line-height: 140%;
@@ -206,6 +154,111 @@ section p{
   margin-bottom: 5px;
 }
 
+a.space{
+  color: #938DF8;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+
+a.space:hover{
+  color: #26235e;
+  background-color: rgba(218, 165, 32, 0.22);
+}
+
 .double-space{
   margin-bottom: 15px;
+}
+
+/* FORMAÇÃO */
+.content{
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.content ul{
+  padding: 60px 0;
+}
+
+#formacao{
+  background-color: #ffff;
+}
+
+a.vtex{
+  text-decoration: none;
+  color: magenta;
+}
+
+/* PORTFOLIO */
+#portfolio{
+  background-color: #EDEAEA;
+}
+
+#portfolio>.content{
+  background-color: #EDEAEA;
+  display: flex;
+  flex-direction: column;
+}
+
+/* PORTFOLIO CONTENT */
+.portfolio-content{
+  border: 1px transparent black;
+}
+.content.portfolio-content{
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.portfolio-item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+}
+.portfolio-item figure{
+  margin: 10px;
+}
+
+.portfolio-item figure img{
+  border-radius: 30px;
+  border: 5px dotted #938DF8;
+}
+
+.portfolio-item:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+.portfolio-item img{
+  width: 300px;
+}
+
+/* FOOTER */
+#contato {
+  display: flex;
+  flex-direction: column;
+  background-color: #5A53D8;
+  padding: 20px; 
+}
+
+#contato div {
+  color: #ffff;
+  padding: 5px; 
+}
+
+#contato a{
+  color: #ffff;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 700;
+}
+
+.underline{
+  text-decoration: underline !important;
 }

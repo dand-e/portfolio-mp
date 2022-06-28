@@ -3,4 +3,4 @@
 Portfólio criado em aulas desenvolvidas pelo Instituto Minas Programam
 
 
-<a href="https://sour-unicorn.netlify.app/" target="_blank">O magnifico portfolio</a>
+[O magnifico portfolio - responsivo](https://dand-e.github.io/portfolio-mp/)
